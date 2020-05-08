@@ -12,5 +12,25 @@
 //
 //= require rails-ujs
 //= require activestorage
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
+
+document.addEventListener("turbolinks:load", () => {
+  const battleButton = document.getElementById('battle-button')
+  window.battleBody = document.getElementById('battle-body')
+  // グローバルな変数？
+  window.battleMonster = document.getElementById('battle-monster')
+  window.battleMonsterImage = document.getElementById('battle-monster-image')
+
+  window.battleMessages = document.getElementById('battle-messages')
+  window.battleButtonContainer = document.getElementById('battle-button-container')
+
+  // 「たたかう」ボタンをクリックしたときに，メッセージを消去し，ボタンを非表示にする
+  battleButton.addEventListener('click', () => {
+      battleButtonContainer.style.display = 'none'
+      battleMessages.innerText = ''
+  })
+})
