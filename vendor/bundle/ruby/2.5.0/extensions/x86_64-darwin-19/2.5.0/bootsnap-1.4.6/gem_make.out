@@ -1,0 +1,15 @@
+current directory: /Users/taniguchitakayasu/Desktop/projects/dq_like_app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.6/ext/bootsnap
+/Users/taniguchitakayasu/.rbenv/versions/2.5.1/bin/ruby -I /Users/taniguchitakayasu/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20200509-2244-wozv3l.rb extconf.rb
+creating Makefile
+
+current directory: /Users/taniguchitakayasu/Desktop/projects/dq_like_app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.6/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/taniguchitakayasu/Desktop/projects/dq_like_app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.6/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/taniguchitakayasu/Desktop/projects/dq_like_app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.6/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20200509-2244-1aezgwn/bootsnap
