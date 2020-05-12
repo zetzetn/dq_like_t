@@ -1,24 +1,22 @@
-# README
+# ドラクエ風アプリ
+ドラクエの戦闘画面を模写したWEBアプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Dependency
+ruby
+rails
 
-Things you may want to cover:
+# Setup
+セットアップ方法を書く。用意するハードウェアとソフトウェアをセットアップするためのコマンドを記載する
 
-* Ruby version
+# Usage
+使い方。なるべく具体的に書く。サンプルも書く
 
-* System dependencies
+# License
+This software is released under the MIT License, see LICENSE.
 
-* Configuration
+# Authors
+作者を明示する。特に、他者が作成したコードを利用する場合は、そのコードのライセンスに従った上で、リポジトリのそれぞれのコードのオリジナルの作者が誰か分かるように明示する（私はそれが良いと思い自主的にしています）。
 
-* Database creation
+# References
+参考にした情報源（サイト・論文）などの情報、リンク
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
