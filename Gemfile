@@ -60,8 +60,12 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
    # デバッグで利用
   gem 'pry-byebug'
+   # VScode上でRailsのデバックする
+  gem 'ruby-debug-ide'
+  gem 'debase'
 end
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
