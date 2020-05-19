@@ -6,12 +6,14 @@ ruby 2.5.1
 rails 5.2.4
 mysql2
 bootstrap
+github-flow
 
 # Setup
-セットアップ方法を書く。用意するハードウェアとソフトウェアをセットアップするためのコマンドを記載する
+セットアップは必要ありません。
 
 # Usage
-使い方。なるべく具体的に書く。サンプルも書く
+ヘロクにデプロイしたWEBアプリとなります。
+戦いの記録をつけることが可能です。
 
 # License
 This software is released under the MIT License, see LICENSE.
