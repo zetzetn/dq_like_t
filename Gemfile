@@ -67,6 +67,8 @@ group :development do
    # VScode上でRailsのデバックする
   gem 'ruby-debug-ide'
   gem 'debase'
+  gem 'rails-erd'  #ER図作成
+
 end
 
 
