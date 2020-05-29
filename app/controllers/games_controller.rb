@@ -3,7 +3,7 @@ class GamesController < ApplicationController
     @brave = current_user.brave
     @monster = Monster.where('recommended_level <= ?', @brave.level).sample
     session[:brave] = @brave.session_attributes
-    session[:monster] = @monster.session_attribute　/修正/
+    session[:monster] = @monster.session_attribute
   end
 
   def start
