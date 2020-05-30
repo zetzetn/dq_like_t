@@ -1,6 +1,6 @@
 name,image,recommended_level,max_hp,offense,defense,exp
-くらげオバケ,kurage.png,1,8,10,9,2
-だいこんオバケ,daikon.png,1,8,18,7,3
-ひとつめオバケ,hitotsume.png,5,25,20,20,30
-おにオバケ,oni.png,9,35,60,20,50
-ひゃくめオバケ,hyakume.png,14,70,65,55,120
+暴れコウモリ,pipo-enemy001.png,1,8,10,9,2
+暴れ狼,pipo-enemy002.png,1,8,18,7,3
+大蛇,pipo-enemy003.png,5,25,20,20,30
+巨大カブト,pipo-enemy004.png,9,35,60,20,50
+ビックツリー,pipo-enemy006.png,14,70,65,55,120
