@@ -4,14 +4,20 @@ $background-color: #272B2F;
 // <img src="/assets/images/monsters/pipo-battlebg002.jpg" alt="">
 // background-image: url("<%= asset_path(pipo-battlebg002.jpg') %>")
 // background-image: image-url('pipo-battlebg002.jpg')
-// <%= image_tag 'logo.png' %>
+// <%= image_tag 'pipo-battlebg002.jpg' %>
 
 // 全体の背景を黒，文字色を白色に変更
 
 body {
-  background-color: $background-color;
-  // <%= image_tag 'pipo-battlebg002.jpg' %>
+  // background-color: $background-color;
   color: white;
+    
+  //背景の読み込み
+  background-image: image-url('background/pipo-battlebg002.jpg');
+
+  //元画像の縦横比は保持して、要素をちょうどよく覆うサイズに調整
+  background-size:cover; 
+
 }
 
 // 全体
