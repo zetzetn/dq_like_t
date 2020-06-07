@@ -1,7 +1,7 @@
-<div class="game-container status-container">
-  <p class="game-label" id="battle-brave-name"><%= @brave.name %></p>
-  <div class="game-content">
-    <div class="row justify-content-between no-gutters" id="battle-status">
+<div class="game-container status-container">  <%# 戦闘画面　ゆうしゃステイタス %>
+  <p class="game-label" id="battle-brave-name"><%= @brave.name %></p>  <%# ゆうしゃネームラベル %>
+  <div class="game-content">  <%# ゆうしゃLV,HP表示 %>
+    <div class="row justify-content-between no-gutters" id="battle-status"> <%# ゆうしゃLV,HP表示　項目 %>
       <%= render 'games/status/battle_status' %>
     </div>
   </div>

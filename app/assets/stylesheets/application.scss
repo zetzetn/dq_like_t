@@ -13,6 +13,9 @@ body {
   //元画像の縦横比は保持して、要素をちょうどよく覆うサイズに調整
   background-size:cover; 
 
+  //DQフォント
+  // font-family: 'DQfont';
+
 }
 
 // 全体
@@ -22,6 +25,14 @@ body {
   padding: 2rem;
 }
 
+// ゲーム内のフォント　//表示できない文字がある　フォントは保留
+//  @font-face{
+// font-family: "DQfont";
+  // src: font-url('DragonQuestFC.ttf') format('truetype');
+//src: font-url('DragonQuestFCIntact.ttf') format('truetype'); //候補
+  // src: font-url('DQ.TTF') format('truetype');
+// }
+
 // ゲーム内のフォントサイズ
 .game-font {
   font-size: 1.3rem;
@@ -30,11 +41,12 @@ body {
   }
 }
 
+//戦闘画面次のステイタス画面？？
 .game-container {
-  margin: 0 auto;
-  border: 4px solid #fff;
-   background-color: $background-color;
-  border-radius: 5px;
+  margin: 0 auto;  //上下のmarginは0だが左右のmarginはautoで中央揃えする
+  border: 4px solid #fff; //1本線で表示
+   background-color: $background-color; //背景？？
+  border-radius: 5px;  //要素の四隅の角を丸める
 
 }
 
