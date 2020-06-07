@@ -13,8 +13,8 @@ body {
   //元画像の縦横比は保持して、要素をちょうどよく覆うサイズに調整
   background-size:cover; 
 
-  //DQフォント
-  // font-family: 'DQfont';
+  // //DQフォント
+  //  font-family: 'DQfont';
 
 }
 
@@ -26,12 +26,12 @@ body {
 }
 
 // ゲーム内のフォント　//表示できない文字がある　フォントは保留
-//  @font-face{
-// font-family: "DQfont";
-  // src: font-url('DragonQuestFC.ttf') format('truetype');
-//src: font-url('DragonQuestFCIntact.ttf') format('truetype'); //候補
-  // src: font-url('DQ.TTF') format('truetype');
-// }
+//   @font-face{
+//   font-family: "DQfont";
+//   // src: font-url('DragonQuestFC.ttf') format('truetype');
+//   // src: font-url('DragonQuestFCIntact.ttf') format('truetype'); //候補
+//    src: font-url('DQ.TTF') format('truetype');
+//  }
 
 // ゲーム内のフォントサイズ
 .game-font {
