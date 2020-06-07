@@ -13,8 +13,8 @@ body {
   //元画像の縦横比は保持して、要素をちょうどよく覆うサイズに調整
   background-size:cover; 
 
-  // //DQフォント
-   font-family: 'DQfont';
+  //DQフォント
+  font-family: 'DQfont';
 
 }
 
@@ -87,7 +87,7 @@ hr.game-line {
 // ボタンの見た目（背景は黒，文字色は白，白枠）
 
 .btn-black {
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   padding: 10px 20px;
   text-indent: 4px;
   letter-spacing: 4px;
