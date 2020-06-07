@@ -1,12 +1,7 @@
 @import "bootstrap";
 
 $background-color: #272B2F;
-// <img src="/assets/images/monsters/pipo-battlebg002.jpg" alt="">
-// background-image: url("<%= asset_path(pipo-battlebg002.jpg') %>")
-// background-image: image-url('pipo-battlebg002.jpg')
-// <%= image_tag 'pipo-battlebg002.jpg' %>
 
-// 全体の背景を黒，文字色を白色に変更
 
 body {
   // background-color: $background-color;
@@ -38,8 +33,9 @@ body {
 .game-container {
   margin: 0 auto;
   border: 4px solid #fff;
-  background-color: $background-color;
+   background-color: $background-color;
   border-radius: 5px;
+
 }
 
 .message-container {
@@ -50,15 +46,15 @@ body {
 // ステータス（勇者名を枠の上真ん中に配置）
 
 .status-container {
-  max-width: 400px;
-  padding: 2rem;
-  position: relative;
-  margin-top: 2rem;
+  max-width: 400px; //400pxよりも大きくならない
+  padding: 2rem;  //要素の全四辺のパディング領域
+  position: relative; // ボックスの配置方法（基準位置）を指定する.相対位置への配置
+  margin-top: 2rem;  //上マージンを指定する
 
   .game-label {
-    position: absolute;
-    top: 0;
-    left: 50%;
+    position: absolute;  //親要素を基準に絶対的な位置を決める
+    top: 0;  //positionプロパティで指定した要素の配置方法（基準位置）を基に、上からの配置位置を指定
+    left: 50%;  //positionプロパティで指定した要素の配置方法（基準位置）を基に、左からの配置位置を指定
     padding: 0 5px;
     margin: 0;
     background-color: $background-color;
