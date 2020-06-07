@@ -1,6 +1,6 @@
 name,image,recommended_level,max_hp,offense,defense,exp
-暴れコウモリ,pipo-enemy001.png,1,8,10,9,2
-暴れ狼,pipo-enemy002.png,1,8,18,7,3
-大蛇,pipo-enemy003.png,5,25,20,20,30
-巨大カブト,pipo-enemy004.png,9,35,60,20,50
+あばれコウモリ,pipo-enemy001.png,1,8,10,9,2
+あばれオオカミ,pipo-enemy002.png,1,8,18,7,3
+おおへび,pipo-enemy003.png,5,25,20,20,30
+きょだいカブト,pipo-enemy004.png,9,35,60,20,50
 ビックツリー,pipo-enemy006.png,14,70,65,55,120

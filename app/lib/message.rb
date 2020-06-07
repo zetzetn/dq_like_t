@@ -1,29 +1,29 @@
 class Message
   class << self
     def level_up(brave)
-      "#{brave.name} のレベルが #{brave.level} に上がった！"
+      "#{brave.name} のレベルが #{brave.level} にあがった！"
     end
     
     def start(monster)
-      "#{monster.name} が現れた！"
+      "#{monster.name} があらわれた！"
     end
 
     def damage(attacker:, defender:)
       [
-        "#{attacker.name} の攻撃！",
+        "#{attacker.name} のこうげき！",
         "#{defender.name} に #{defender.damage} のダメージ！"
       ]
     end
 
     def victory(monster)
       [
-        "#{monster.name} を倒した！",
-        "#{monster.exp} の経験値を獲得！"
+        "#{monster.name} をたおした！",
+        "#{monster.exp} のけいけんちをかくとく！"
       ]
     end
 
     def defeat(brave)
-      "#{brave.name} は力尽きた……"
+      "#{brave.name} はちからつきた……"
     end
     
   end
