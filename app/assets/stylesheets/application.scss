@@ -23,6 +23,9 @@ body {
   @extend .container-fluid;
   max-width: 576px;
   padding: 2rem;
+
+  // テスト用ライン
+  border: 4px solid #fff; //1本線で表示
 }
 
 // ゲーム内のフォント　//表示できない文字がある　フォントは保留
@@ -157,4 +160,8 @@ hr.game-line {
   -webkit-transition: opacity 1.5s;
   -moz-transition: opacity 1.5s;
   transition: opacity 1.5s;
+
+
+  // テスト用ライン もっと小さく表示できるようにすること
+  border: 4px solid #ffB; //1本線で表示
 }
