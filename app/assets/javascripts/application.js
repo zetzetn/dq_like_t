@@ -18,6 +18,9 @@
 //= require turbolinks
 //= require_tree .
 
+//audiojsの読み込み
+//= require audiojs
+
 document.addEventListener("turbolinks:load", () => {
   const battleButton = document.getElementById('battle-button')
   window.battleBody = document.getElementById('battle-body')
