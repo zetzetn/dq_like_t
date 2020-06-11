@@ -162,6 +162,7 @@
 }
 
 // Modal body
+// 戦闘画面 ステータス、敵、コマンドウィンドウ全体を含めるウィンドウ→コマンドウィンドウを切り分けるため、2つに分割する
 // Where all modal content resides (sibling of .modal-header and .modal-footer)
 .modal-body {
   position: relative;

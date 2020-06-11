@@ -18,10 +18,10 @@ body {
 
 }
 
-// 全体
+// ホーム画面全体
 .base-container {
   @extend .container-fluid;
-  max-width: 576px;
+  max-width: 75%;
   padding: 2rem;
 
   // テスト用ライン
@@ -44,11 +44,12 @@ src: font-url('DQ.TTF') format('truetype');
   }
 }
 
-//戦闘画面次のステイタス画面？？
+//戦闘画面 ホーム画面のモーダルウィンドウ
 .game-container {
   margin: 0 auto;  //上下のmarginは0だが左右のmarginはautoで中央揃えする
-  border: 4px solid #fff; //1本線で表示
-   background-color: $background-color; //背景？？
+  border: 4px solid ; //1本線で表示
+  //  background-color: $background-color; //背景？？
+  background: darkcyan;
   border-radius: 5px;  //要素の四隅の角を丸める
 
 }
@@ -58,9 +59,18 @@ src: font-url('DQ.TTF') format('truetype');
   text-align: center;
 }
 
-// ステータス（勇者名を枠の上真ん中に配置）
+// ステータス ホーム画面用（勇者名を枠の上真ん中に配置）
 
 .status-container {
+  //ホーム画面　ゆうしゃステイタス画面　ホーム画面と共用されている　コンテナを分けた
+
+  // //ウィンドウ位置の設定
+  // position:absolute;  //絶対位置
+  // width:25%; height:40%;
+  // top:0%;
+  // left:25%;
+  background: gray;//テスト用
+
   max-width: 400px; //400pxよりも大きくならない
   padding: 2rem;  //要素の全四辺のパディング領域
   position: relative; // ボックスの配置方法（基準位置）を指定する.相対位置への配置
@@ -72,13 +82,43 @@ src: font-url('DQ.TTF') format('truetype');
     left: 50%;  //positionプロパティで指定した要素の配置方法（基準位置）を基に、左からの配置位置を指定
     padding: 0 5px;
     margin: 0;
-    background-color: $background-color;
+    // background-color: $background-color;
+    background:white;//テスト用
+
     transform: translateY(-50%) translateX(-50%);
   }
 }
+// 戦闘画面 ゆうしゃステイタス画面 ホーム画面と共用されているため、コンテナを分けた
 
-// 線
+.battle-status-container {
+  
+  max-width: 400px; //400pxよりも大きくならない
+  padding: 0.5rem;  //要素の全四辺のパディング領域
+  margin-top: 0rem;  //上マージンを指定する
+  line-height: 1.0rem;
+  // //ウィンドウ位置の設定
+  position:absolute;  //絶対位置
+  width:25%; height:40%;
+  top:0%;
+  left:0%;
+  
+  background: greenyellow;//テスト用
 
+
+
+  .battle-game-label {
+    position: absolute;  //親要素を基準に絶対的な位置を決める
+    top: 0;  //positionプロパティで指定した要素の配置方法（基準位置）を基に、上からの配置位置を指定
+    left: 50%;  //positionプロパティで指定した要素の配置方法（基準位置）を基に、左からの配置位置を指定
+    padding: 0 5px;
+    margin: 0;
+    background-color: $background-color;
+    // background:white;//テスト用
+
+    transform: translateY(-50%) translateX(-50%);
+  }
+}
+// たたかうーせっていの間に使用
 hr.game-line {
   width: 100%;
   height: 2px;
@@ -87,6 +127,14 @@ hr.game-line {
   margin: 0;
 }
 
+// ゆうしゃーHPの間に使用
+hr.battle-game-line {
+  width: 109%;
+  height: 2.5px;
+  background-color: white;
+  padding: 0.0rm;
+  margin-left: -4%;
+}
 // ボタンの見た目（背景は黒，文字色は白，白枠）
 
 .btn-black {
@@ -125,8 +173,15 @@ hr.game-line {
 }
 
 .battle-message-container {
-  text-align: left;
+  // //ウィンドウ位置の設定
+  // position:absolute;  //絶対位置
+  // // width:50%; height:50%;
+  // top:50%;
+  // // left:25%;
+  text-align: left;  //インラインレベルのコンテンツは、ラインボックスの左端に揃えられる
   height: 300px;
+
+  
 }
 
 // 画面を揺らすモーション
@@ -164,8 +219,8 @@ hr.game-line {
 
   //ウィンドウ位置の設定
   position:absolute;  //絶対位置
-  width:50%; height:45%;
-  top:25%;
+  width:50%; height:65%;
+  top:0%;
   left:25%;
   // テスト用ライン もっと小さく表示できるようにすること
   border: 4px solid #ffB; //1本線で表示

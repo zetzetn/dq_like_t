@@ -1,5 +1,9 @@
-<div class="game-container status-container">  <%# 戦闘画面　ゆうしゃステイタス %>
+ <%# 戦闘画面　ゆうしゃステイタス %>
+<div class="battle-game-container battle-status-container"> 
   <p class="game-label" id="battle-brave-name"><%= @brave.name %></p>  <%# ゆうしゃネームラベル %>
+  
+  <hr class="battle-game-line">
+  
   <div class="game-content">  <%# ゆうしゃLV,HP表示 %>
     <div class="row justify-content-between no-gutters" id="battle-status"> <%# ゆうしゃLV,HP表示　項目 %>
       <%= render 'games/status/battle_status' %>
