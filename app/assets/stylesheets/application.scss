@@ -76,11 +76,6 @@ src: font-url('DQ.TTF') format('truetype');
   background: gray;//テスト用
   //ホーム画面　ゆうしゃステイタス画面　ホーム画面と共用されている　コンテナを分けた
 
-  // //ウィンドウ位置の設定
-  // position:absolute;  //絶対位置
-  // width:25%; height:40%;
-  // top:0%;
-  // left:25%;
   max-width: 400px; //400pxよりも大きくならない
   padding: 2rem;  //要素の全四辺のパディング領域
   position: relative; // ボックスの配置方法（基準位置）を指定する.相対位置への配置
@@ -187,17 +182,20 @@ hr.battle-game-line {
   text-align: left;  //インラインレベルのコンテンツは、ラインボックスの左端に揃えられる
   height: 300px;
 
-  // // //ウィンドウ位置の設定
-  // position:relative;  //相対位置
-  // top: 250px;
   
 }
 .top-message-container {
+  //トップ画面　コマンドウィンドウ
   background: blue;//テスト用
 
   text-align: left;  //インラインレベルのコンテンツは、ラインボックスの左端に揃えられる
   height: 300px;
-
+  
+  //ウィンドウ位置の設定
+  position: absolute;
+  top: 40%;
+  left: 25%; //中央揃え
+  right: 25%; //中央揃え
 }
 // 画面を揺らすモーション
 
