@@ -44,24 +44,36 @@ src: font-url('DQ.TTF') format('truetype');
   }
 }
 
-//戦闘画面 ホーム画面のモーダルウィンドウ
+//戦闘画面のモーダルウィンドウ
 .game-container {
+  background: darkcyan;
   margin: 0 auto;  //上下のmarginは0だが左右のmarginはautoで中央揃えする
   border: 4px solid ; //1本線で表示
   //  background-color: $background-color; //背景？？
-  background: darkcyan;
+
   border-radius: 5px;  //要素の四隅の角を丸める
+
+  // //位置調整
+  top: 5%;  //positionプロパティで指定した要素の配置方法（基準位置）を基に、上からの配置位置を指定
 
 }
 
+  //戦闘画面のメッセージウィンドウ（メッセージは別）
 .message-container {
+  background: sandybrown;//テスト用
   max-width: 576px;
   text-align: center;
+
+  // //ウィンドウ位置の設定
+  position:relative;  //相対位置
+  top: 250px;
+
 }
 
 // ステータス ホーム画面用（勇者名を枠の上真ん中に配置）
 
 .status-container {
+  background: gray;//テスト用
   //ホーム画面　ゆうしゃステイタス画面　ホーム画面と共用されている　コンテナを分けた
 
   // //ウィンドウ位置の設定
@@ -69,8 +81,6 @@ src: font-url('DQ.TTF') format('truetype');
   // width:25%; height:40%;
   // top:0%;
   // left:25%;
-  background: gray;//テスト用
-
   max-width: 400px; //400pxよりも大きくならない
   padding: 2rem;  //要素の全四辺のパディング領域
   position: relative; // ボックスの配置方法（基準位置）を指定する.相対位置への配置
@@ -82,8 +92,8 @@ src: font-url('DQ.TTF') format('truetype');
     left: 50%;  //positionプロパティで指定した要素の配置方法（基準位置）を基に、左からの配置位置を指定
     padding: 0 5px;
     margin: 0;
-    // background-color: $background-color;
-    background:white;//テスト用
+    background-color: $background-color;
+    //background:white;//テスト用
 
     transform: translateY(-50%) translateX(-50%);
   }
@@ -173,17 +183,22 @@ hr.battle-game-line {
 }
 
 .battle-message-container {
-  // //ウィンドウ位置の設定
-  // position:absolute;  //絶対位置
-  // // width:50%; height:50%;
-  // top:50%;
-  // // left:25%;
+  background: rgb(244, 96, 212);//テスト用
   text-align: left;  //インラインレベルのコンテンツは、ラインボックスの左端に揃えられる
   height: 300px;
 
+  // // //ウィンドウ位置の設定
+  // position:relative;  //相対位置
+  // top: 250px;
   
 }
+.top-message-container {
+  background: blue;//テスト用
 
+  text-align: left;  //インラインレベルのコンテンツは、ラインボックスの左端に揃えられる
+  height: 300px;
+
+}
 // 画面を揺らすモーション
 
 .swing {
