@@ -28,6 +28,9 @@ body {
 
   // テスト用ライン
   border: 4px solid #fff; //1本線で表示
+
+  //位置調整
+  margin-top: 20px;
 }
 
 // ゲーム内のフォント　//表示できない文字がある　フォントは保留
@@ -98,7 +101,8 @@ src: font-url('DQ.TTF') format('truetype');
 // 戦闘画面 ゆうしゃステイタス画面 ホーム画面と共用されているため、コンテナを分けた
 
 .battle-status-container {
-  
+  background: greenyellow;//テスト用
+
   max-width: 400px; //400pxよりも大きくならない
   padding: 0.5rem;  //要素の全四辺のパディング領域
   margin-top: 0rem;  //上マージンを指定する
@@ -108,9 +112,6 @@ src: font-url('DQ.TTF') format('truetype');
   width:25%; height:40%;
   top:0%;
   left:0%;
-  
-  background: greenyellow;//テスト用
-
 
 
   .battle-game-label {
@@ -191,13 +192,15 @@ hr.battle-game-line {
   background: blue;//テスト用
 
   text-align: left;  //インラインレベルのコンテンツは、ラインボックスの左端に揃えられる
-  height: 300px;
+
   
   //ウィンドウ位置の設定
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 25%; //中央揃え
   right: 25%; //中央揃え
+  max-width: 500px;
+  max-height: 300px;
 }
 // 画面を揺らすモーション
 
