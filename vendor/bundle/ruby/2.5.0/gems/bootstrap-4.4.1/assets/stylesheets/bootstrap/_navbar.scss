@@ -59,9 +59,11 @@
   @include font-size($navbar-brand-font-size);
   line-height: inherit;
   white-space: nowrap;
-  // れいるずあぷりフォント大きさ変更
+  // れいるずあぷりフォント大きさ変更 最大サイズ設定
   font-size: 6VW;
-
+  @media (min-width: 800px) {
+    font-size: 55px;
+  }
   @include hover-focus() {
     text-decoration: none;
   }
