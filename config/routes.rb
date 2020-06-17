@@ -6,5 +6,5 @@ Rails.application.routes.draw do
   get '/start', to: 'games#start'
   get '/battle', to: 'games#battle'
 
-  resources :braves, only: :update
+  resources :braves, only: :update # resouresメソッドはルーティングを一括で設定する
 end
