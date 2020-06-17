@@ -1,6 +1,6 @@
 name,image,recommended_level,max_hp,offense,defense,exp
-あばれコウモリ,pipo-enemy001.png,1,8,10,9,2
-あばれオオカミ,pipo-enemy002.png,1,8,18,7,3
-おおへび,pipo-enemy003.png,5,25,20,20,30
-きょだいカブト,pipo-enemy004.png,9,35,60,20,50
-ビックツリー,pipo-enemy006.png,14,70,65,55,120
+ワーム,mate_worm01.png,1,8,10,9,2
+オオカミ,mate_wolf01.png,1,8,18,7,3
+トロール,mate_troll01.png,5,25,20,20,30
+スケルトン,mate_skelton01.png,9,35,60,20,50
+リッチ,mate_rich01.png,14,70,65,55,120
