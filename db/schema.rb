@@ -12,7 +12,10 @@
 
 ActiveRecord::Schema.define(version: 2020_05_16_113541) do
 
-  create_table "braves", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "braves", force: :cascade do |t|
     t.bigint "user_id"
     t.string "name", null: false
     t.integer "level", null: false
@@ -25,7 +28,7 @@ ActiveRecord::Schema.define(version: 2020_05_16_113541) do
     t.index ["user_id"], name: "index_braves_on_user_id"
   end
 
-  create_table "exp_tables", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "exp_tables", force: :cascade do |t|
     t.integer "level", null: false
     t.bigint "exp", null: false
     t.datetime "created_at", null: false
@@ -33,7 +36,7 @@ ActiveRecord::Schema.define(version: 2020_05_16_113541) do
     t.index ["exp"], name: "index_exp_tables_on_exp"
   end
 
-  create_table "monsters", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "monsters", force: :cascade do |t|
     t.string "name", null: false
     t.string "image", null: false
     t.integer "recommended_level", null: false
@@ -46,7 +49,7 @@ ActiveRecord::Schema.define(version: 2020_05_16_113541) do
     t.index ["name"], name: "index_monsters_on_name"
   end
 
-  create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
