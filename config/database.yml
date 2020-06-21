@@ -1,3 +1,4 @@
+# PostgreSQL設定
 default: &default
   adapter: postgresql
   encoding: unicode
