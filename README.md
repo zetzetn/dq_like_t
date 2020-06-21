@@ -42,5 +42,3 @@ This software is released under the MIT License, see LICENSE.
 かみざとさんが公開されたドラクheroku -vエ風ゲームプログラムに触発されて
 作成したWEBアプリです。
 紹介URL:https://www.techpit.jp/courses/enrolled/696793
-
-・・
