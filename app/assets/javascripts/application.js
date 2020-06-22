@@ -19,7 +19,7 @@
 //= require_tree .
 
 //audiojsの読み込み
-//= require audiojs
+// = require audiojs
 
 document.addEventListener("turbolinks:load", () => {
   const battleButton = document.getElementById('battle-button')

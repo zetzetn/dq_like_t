@@ -1,14 +1,16 @@
 <div class="modal fade" id="battle-modal" data-backdrop="static" tabindex="-1" role="dialog" aria-hidden="true">
   
-<!-- 再生プレイヤー -->
-<%= audio_tag '8bit-Battle01.mp3' %>
+<!--  再生プレイヤー -->
+<%# <%= audio_tag '8bit-Battle01.mp3' %> %>
 
 <!-- audiojsの初期化 -->
-<script>
-  audiojs.events.ready(function() {
+<%# <script> %>
+  <%# audiojs.events.ready(function() {
     var as = audiojs.createAll();
-  });
-</script>
+  }
+  ); -->
+
+</script> %>
   
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content game-container">
