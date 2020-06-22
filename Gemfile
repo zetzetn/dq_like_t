@@ -9,8 +9,11 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 
 # DBをPostgreSQLに変更するためコメントアウト
 # gem 'mysql2', '>= 0.5.3', '< 0.6.0'
+
 # DBをPostgreSQLに変更するため追加
-gem 'pg', '>= 0.18', '< 2.0'
+# gem 'pg', '>= 0.18', '< 2.0'
+# production(Heroku)でpgを利用するように修正
+gem 'pg', group: :production
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
