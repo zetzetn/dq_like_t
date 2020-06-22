@@ -4,7 +4,8 @@ class AddDeviseToUsers < ActiveRecord::Migration[5.2]
   
   def self.up
     change_table :users do |t|
-  ign_in_at
+  sign_in_at
+  # ign_in_at
       # t.string   :current_sign_in_ip
       # t.string   :last_sign_in_ip
 
