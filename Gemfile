@@ -51,7 +51,7 @@ gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
 # ログイン関連ページにBootstrapを適用するGem
 gem 'devise-bootstrap-views', '~> 1.0'
-# オーディオファイル再生
+# オーディオファイル再生 不要なため削除してもよい
 gem 'audiojs-rails'
 
 
