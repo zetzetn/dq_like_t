@@ -82,7 +82,7 @@ ja:
         new_password: あたらしいパスワード
       new:
         forgot_your_password: パスワードをわすれましたか?
-        send_me_reset_password_instructions: パスワードの再設定方法をそうしんする
+        send_me_reset_password_instructions: パスワードのさいせっていほうほうをそうしんする
       no_token: このページにはアクセスできません。パスワード再設定メールのリンクからアクセスされた場合には、URL をご確認ください。
       send_instructions: パスワードの再設定について数分以内にメールでご連絡いたします。
       send_paranoid_instructions: メールアドレスが登録済みの場合、パスワード再設定用のメールが数分以内に送信されます。
@@ -96,7 +96,7 @@ ja:
         currently_waiting_confirmation_for_email: "%{email} の確認待ち"
         leave_blank_if_you_don_t_want_to_change_it: くうらんのままならへんこうしません
         # title: "%{resource}へんしゅう"
-        title: ゆーざーへんしゅう"
+        title: ゆーざーへんしゅう
         unhappy: きにいりません
         update: こうしん
         we_need_your_current_password_to_confirm_your_changes: へんこうをはんえいするにはげんざいのパスワードをにゅうりょくしてください
