@@ -9,7 +9,7 @@ ja:
         current_password: げんざいののパスワード
         current_sign_in_at: 現在のログイン時刻
         current_sign_in_ip: 現在のログインIPアドレス
-        email: イーメール
+        email: Eメール
         encrypted_password: 暗号化パスワード
         failed_attempts: 失敗したログイン試行回数
         last_sign_in_at: 最終ログイン時刻
@@ -122,7 +122,7 @@ ja:
         forgot_your_password: パスワードをわすれましたか?
         sign_in: ログイン
         sign_in_with_provider: "%{provider}でログイン"
-        sign_up: アカウント登録
+        sign_up: アカウントとうろく
       minimum_password_length: "（%{count}字以上）"
     unlocks:
       new:
