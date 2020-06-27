@@ -16,7 +16,7 @@ ja:
         last_sign_in_ip: 最終ログインIPアドレス
         locked_at: ロックじこく
         password: パスワード
-        password_confirmation: パスワード（かくにんよう）
+        password_confirmation: パスワード(かくにんよう)
         remember_created_at: ログイン記憶時刻
         remember_me: ログインをきおくする
         reset_password_sent_at: パスワードリセット送信時刻
