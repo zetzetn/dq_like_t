@@ -15,6 +15,7 @@ test:
 production:
   <<: *default
   # <<: 本番環境(Heroku)で使用するデータベースをPostgreSQLに設定
+  # &defaultで設定されているが、下記の記載をすることでheroku pusy 解決 
   adapter: postgresql
   encoding: unicode
   pool: 5
