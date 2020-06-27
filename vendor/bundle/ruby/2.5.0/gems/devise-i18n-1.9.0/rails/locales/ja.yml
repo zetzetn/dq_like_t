@@ -95,7 +95,8 @@ ja:
         cancel_my_account: アカウントさくじょ
         currently_waiting_confirmation_for_email: "%{email} の確認待ち"
         leave_blank_if_you_don_t_want_to_change_it: くうらんのままならへんこうしません
-        title: "%{resource}へんしゅう"
+        # title: "%{resource}へんしゅう"
+        title: ゆーざーへんしゅう"
         unhappy: きにいりません
         update: こうしん
         we_need_your_current_password_to_confirm_your_changes: へんこうをはんえいするにはげんざいのパスワードをにゅうりょくしてください
