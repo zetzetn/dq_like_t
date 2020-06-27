@@ -2,27 +2,27 @@ ja:
   activerecord:
     attributes:
       user:
-        confirmation_sent_at: パスワード確認送信時刻
-        confirmation_token: パスワード確認用トークン
-        confirmed_at: パスワード確認時刻
-        created_at: 作成日
+        confirmation_sent_at: パスワードかくにんそうじんじこく
+        confirmation_token: パスワードかくにんようトークン
+        confirmed_at: パスワードかくにんじこく
+        created_at: さくせいび
         current_password: げんざいののパスワード
-        current_sign_in_at: 現在のログイン時刻
-        current_sign_in_ip: 現在のログインIPアドレス
+        current_sign_in_at: げんざいのログインじこく
+        current_sign_in_ip: げんざいのログインIPアドレス
         email: Eメール
-        encrypted_password: 暗号化パスワード
-        failed_attempts: 失敗したログイン試行回数
+        encrypted_password: あんごうかパスワード
+        failed_attempts: しっぱいしたログインしこうかいすう
         last_sign_in_at: 最終ログイン時刻
         last_sign_in_ip: 最終ログインIPアドレス
-        locked_at: ロック時刻
+        locked_at: ロックじこく
         password: パスワード
-        password_confirmation: パスワード（確認用）
+        password_confirmation: パスワード（かくにんよう）
         remember_created_at: ログイン記憶時刻
         remember_me: ログインをきおくする
         reset_password_sent_at: パスワードリセット送信時刻
         reset_password_token: パスワードリセット用トークン
         sign_in_count: ログイン回数
-        unconfirmed_email: 未確認Eメール
+        unconfirmed_email: みかくにんEメール
         unlock_token: ロック解除用トークン
         updated_at: 更新日
     models:
@@ -31,7 +31,7 @@ ja:
     confirmations:
       confirmed: メールアドレスをかくにんできました。
       new:
-        resend_confirmation_instructions: アカウント確認メール再送
+        resend_confirmation_instructions: アカウントかくにんメールさいそう
       send_instructions: アカウントの有効化について数分以内にメールでご連絡します。
       send_paranoid_instructions: メールアドレスが登録済みの場合、本人確認用のメールが数分以内に送信されます。
     failure:
@@ -53,13 +53,13 @@ ja:
       email_changed:
         greeting: こんにちは、%{recipient}様。
         message: あなたのメール変更（%{email}）のお知らせいたします。
-        subject: メール変更完了。
+        subject: メールへんこうかんりょう
       password_change:
         greeting: "%{recipient}様"
         message: パスワードが再設定されたことを通知します。
         subject: パスワードの変更について
       reset_password_instructions:
-        action: パスワード変更
+        action: パスワードへんこう
         greeting: "%{recipient}様"
         instruction: パスワード再設定の依頼を受けたため、メールを送信しています。下のリンクからパスワードの再設定ができます。
         instruction_2: パスワード再設定の依頼をしていない場合、このメールを無視してください。
@@ -109,21 +109,21 @@ ja:
       updated: アカウント情報を変更しました。
       updated_but_not_signed_in: あなたのアカウントは正常に更新されましたが、パスワードが変更されたため、再度ログインしてください。
     sessions:
-      already_signed_out: 既にログアウト済みです。
+      already_signed_out: すでにログアウトずみです。
       new:
         sign_in: ログイン
       signed_in: ログインしました。
       signed_out: ログアウトしました。
     shared:
       links:
-        back: 戻る
+        back: もどる
         didn_t_receive_confirmation_instructions: アカウント確認のメールを受け取っていませんか?
         didn_t_receive_unlock_instructions: アカウントの凍結解除方法のメールを受け取っていませんか?
         forgot_your_password: パスワードをわすれましたか?
         sign_in: ログイン
         sign_in_with_provider: "%{provider}でログイン"
         sign_up: アカウントとうろく
-      minimum_password_length: "（%{count}字以上）"
+      minimum_password_length: "（%{count}じいじょう）"
     unlocks:
       new:
         resend_unlock_instructions: アカウントの凍結解除方法を再送する
@@ -138,5 +138,5 @@ ja:
       not_found: は見つかりませんでした。
       not_locked: は凍結されていません。
       not_saved:
-        one: エラーが発生したため %{resource} は保存されませんでした。
-        other: "%{count} 件のエラーが発生したため %{resource} は保存されませんでした。"
+        one: エラーがはっせいしたため %{resource} はほぞんされませんでした。
+        other: "%{count} けんのエラーがはっせいしたため %{resource} はほぞんされませんでした。"
