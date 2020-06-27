@@ -6,7 +6,7 @@ ja:
         confirmation_token: パスワードかくにんようトークン
         confirmed_at: パスワードかくにんじこく
         created_at: さくせいび
-        current_password: げんざいののパスワード
+        current_password: げんざいのパスワード
         current_sign_in_at: げんざいのログインじこく
         current_sign_in_ip: げんざいのログインIPアドレス
         email: Eメール
@@ -16,7 +16,7 @@ ja:
         last_sign_in_ip: 最終ログインIPアドレス
         locked_at: ロックじこく
         password: パスワード
-        password_confirmation: パスワード(かくにんよう)
+        password_confirmation: パスワードかくにんよう
         remember_created_at: ログイン記憶時刻
         remember_me: ログインをきおくする
         reset_password_sent_at: パスワードリセット送信時刻
@@ -68,7 +68,7 @@ ja:
       unlock_instructions:
         action: アカウントのロック解除
         greeting: "%{recipient}様"
-        instruction: アカウントのロックを解除するには下のリンクをクリックしてください。
+        instruction: アカウントのロックをかいじょするにはしたのリンクをクリックしてください。
         message: ログイン失敗が繰り返されたため、アカウントはロックされています。
         subject: アカウントの凍結解除について
     omniauth_callbacks:
@@ -89,16 +89,16 @@ ja:
       updated: パスワードが正しく変更されました。
       updated_not_active: パスワードが正しく変更されました。
     registrations:
-      destroyed: アカウントをさくじょしました。またのごりようをお待ちしております。
+      destroyed: アカウントをさくじょしました。またのごりようをおまちしております。
       edit:
         are_you_sure: ほんとうによろしいですか?
         cancel_my_account: アカウントさくじょ
         currently_waiting_confirmation_for_email: "%{email} の確認待ち"
-        leave_blank_if_you_don_t_want_to_change_it: 空欄のままなら変更しません
-        title: "%{resource}編集"
-        unhappy: 気に入りません
-        update: 更新
-        we_need_your_current_password_to_confirm_your_changes: 変更を反映するには現在のパスワードを入力してください
+        leave_blank_if_you_don_t_want_to_change_it: くうらんのままならへんこうしません
+        title: "%{resource}へんしゅう"
+        unhappy: きにいりません
+        update: こうしん
+        we_need_your_current_password_to_confirm_your_changes: へんこうをはんえいするにはげんざいのパスワードをにゅうりょくしてください
       new:
         sign_up: アカウントとうろく
       signed_up: アカウントとうろくがかんりょうしました。
@@ -135,7 +135,7 @@ ja:
       already_confirmed: は既に登録済みです。ログインしてください。
       confirmation_period_expired: の期限が切れました。%{period} までに確認する必要があります。 新しくリクエストしてください。
       expired: の有効期限が切れました。新しくリクエストしてください。
-      not_found: は見つかりませんでした。
+      not_found: はみつかりませんでした。
       not_locked: は凍結されていません。
       not_saved:
         one: エラーがはっせいしたため %{resource} はほぞんされませんでした。
