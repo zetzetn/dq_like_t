@@ -56,17 +56,17 @@ ja:
         subject: メールへんこうかんりょう
       password_change:
         greeting: "%{recipient}様"
-        message: パスワードが再設定されたことを通知します。
-        subject: パスワードの変更について
+        message: パスワードが再設定されました。
+        subject: パスワードのへんこうについて
       reset_password_instructions:
         action: パスワードへんこう
         greeting: "%{recipient}様"
         instruction: パスワード再設定の依頼を受けたため、メールを送信しています。下のリンクからパスワードの再設定ができます。
         instruction_2: パスワード再設定の依頼をしていない場合、このメールを無視してください。
         instruction_3: パスワードの再設定は、上のリンクから新しいパスワードを登録するまで完了しません。
-        subject: パスワードの再設定について
+        subject: パスワードのさいせっていについて
       unlock_instructions:
-        action: アカウントのロック解除
+        action: アカウントのロックかいじょ
         greeting: "%{recipient}様"
         instruction: アカウントのロックをかいじょするにはしたのリンクをクリックしてください。
         message: ログイン失敗が繰り返されたため、アカウントはロックされています。
