@@ -38,10 +38,13 @@ This software is released under the MIT License, see LICENSE.
 # Authors
 作者を明示する。特に、他者が作成したコードを利用する場合は、そのコードのライセンスに従った上で、リポジトリのそれぞれのコードのオリジナルの作者が誰か分かるように明示する（私はそれが良いと思い自主的にしています）。
 
-# References
+profile/edit
 かみざとさんが公開されたドラクheroku -vエ風ゲームプログラムに触発されて
 作成したWEBアプリです。
 紹介URL:https://www.techpit.jp/courses/enrolled/696793
+
+本アプリの作者
+https://www.wantedly.com/secret_profiles/PeQ4EnekeDkYUCSSrK_QDMAkscSMxIRQ
 
 # Herokuへデプロイ
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
